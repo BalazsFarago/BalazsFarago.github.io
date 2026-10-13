@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Academic personal website">
+    <title>Balázs_Faragó_Research </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,650&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [["$", "$"], ["\\(", "\\)"]],
+          displayMath: [["$$", "$$"], ["\\[", "\\]"]]
+        },
+        svg: { fontCache: "global" }
+      };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <!-- EDIT: Change this name in the top-left navigation. -->
+        <a class="brand" href="#home">$\mathcal{B}$alázs $\; \mathcal{F}$aragó </a>
+    
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <!-- EDIT: Navigation links. Remove or comment out links for sections you are not using yet. -->
+
+          <!-- HIDDEN FOR NOW: Remove these comment markers when you want to show the Agenda link.
+          <a href="#agenda">Agenda</a>
+          <a href="#bio">Bio</a>
+          <a href="#research">Research</a>
+
+          -->
+          <a href="#contact">Contact</a>
+          <a class="nav-cv" href="assets/CV-6.pdf">CV</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="intro section" id="home">
+        <div class="intro-copy">
+          <!-- EDIT: Short role/institution line above your name. -->
+          <p class="eyebrow">PhD Candidate in Economics · Central European University </p>
+
+          <!-- EDIT: Your main displayed name. -->
+          <h1>Balázs Faragó</h1>
+
+          <!-- EDIT: Main homepage introduction. Keep this short, around 2-4 lines. -->
+          <p class="lead">
+            I am a PhD candidate in economics at Central European University. My research interests include the economics of information and how economic agents like us humans interact with it. Currently, my main area of focus is information acquisition. Specifically,
+            I am working on topics such as the interplay of top-down and bottom-up attention allocation, as well as questions regarding the value of information across multiple decision problems. These topics have various applications (e.g. microfoundations to macroeconomic models, political economics, industrial organisation, finance) 
+            but applications regarding media markets and other "markets for information" are of especially high importance since media consumption is itself a form of informaiton acquisition with spillover effects to other markets, social learning, and culture. 
+          </p>
+
+          <!-- EDIT: Profile links. Replace the URLs with your own links. -->
+          <div class="link-row" aria-label="Profile links">
+            <a href="mailto:you@example.com">Email</a>
+            <a href="https://github.com/BalazsFarago">GitHub</a>
+            <!--
+            <a href="https://scholar.google.com/">Google Scholar</a>
+            
+            -->
+            <a href="https://www.linkedin.com/in/balazsfarago/">LinkedIn</a>
+            <a href="assets/CV-6.pdf">CV</a>
+          </div>
+        </div>
+        <aside class="profile-card" aria-label="Profile details">
+          <!-- EDIT: Replace this image file with your own profile photo.
+               Recommended: save it as assets/profile.jpg, then change the src below to assets/profile.jpg. -->
+          <img class="profile-image" src="assets/portrait.jpg" alt="Portrait of Your Name">
+          <div>
+            <!-- EDIT: Current affiliation or role. 
+            <h2>Current Position</h2>
+            <p>Department of Economics<br>Central European University</p>
+            -->
+          </div>
+          <div>
+            <!-- EDIT: Research fields shown below your profile image. -->
+            <h2>Research Fields</h2>
+            <p>Behavioural Economics · Bounded Rationality · Economics of Information </p>
+          </div>
+        </aside>
+      </section>
+      <!--
+      <section class="section notice">
+
+        <p>
+          
+          <strong>Site editing note:</strong> replace the placeholder text, links, and files in <code>assets/</code>.
+          You can add images with ordinary HTML <code>&lt;img&gt;</code> tags.
+
+        </p>
+
+      </section>
+        -->
+      <!--
+      <section class="section" id="bio">
+        <div class="section-heading">
+          <p class="eyebrow">Bio</p>
+          <h2>About</h2>
+        </div>
+        <div class="prose">
+          
+          <p>
+            I am a PhD candidate in economics at Central European University. 
+          </p>
+          <p>
+            My research interests include the economics of information and how economic agents like us humans interact with it. Currently, my main area of focus is information acquisition. Specifically,
+            I am working on topics such as: the interplay of top-down and bottom-up attention allocation, as well as questions regarding information acquisition across multiple decision problems.
+          </p>
+        </div>
+      </section>
+      -->
+      <!--
+      <section class="section" id="research">
+        <div class="section-heading">
+          
+          <p class="eyebrow">Research</p>
+          <h2>Publications, Working Papers, and Projects</h2>
+          
+        </div>
+        
+
+        <div class="prose">
+          
+          <p>Research entries will be added here soon.</p>
+        </div>
+
+
+         HIDDEN FOR NOW: Research filter buttons. Remove these comment markers when you add publication entries.
+        <div class="filter-row" aria-label="Research filters">
+          <button class="filter-button active" type="button" data-filter="all">All</button>
+          <button class="filter-button" type="button" data-filter="publication">Publications</button>
+          <button class="filter-button" type="button" data-filter="working-paper">Working Papers</button>
+          <button class="filter-button" type="button" data-filter="work-in-progress">Works in Progress</button>
+        </div>
+        
+
+         HIDDEN FOR NOW: Example publication, working paper, and work-in-progress entries.
+             To show them later, remove this opening comment marker and the closing marker after the research-list.
+             You can duplicate any article block to add another paper.
+        <div class="research-list">
+          <article class="research-item" data-category="publication">
+            <div class="research-year">2026</div>
+            <div class="research-body">
+              <p class="status">Publication</p>
+              <h3>Title of a Published Article</h3>
+              <p class="authors">Your Name, Coauthor One, and Coauthor Two</p>
+              <p class="venue">Journal Name, forthcoming</p>
+              <p>
+                A short abstract or two-sentence summary goes here. Keep it concise and readable for visitors outside
+                your narrow field.
+              </p>
+              <figure class="paper-figure">
+                <img src="assets/research-placeholder.svg" alt="Placeholder figure for the paper">
+                <figcaption>Optional figure caption for a graph, model diagram, or research image.</figcaption>
+              </figure>
+              <div class="paper-links">
+                <a href="assets/paper.pdf">PDF</a>
+                <a href="#">Appendix</a>
+                <a href="#">Code</a>
+                <a href="#">BibTeX</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="research-item" data-category="working-paper">
+            <div class="research-year">2025</div>
+            <div class="research-body">
+              <p class="status">Working Paper</p>
+              <h3>Title of a Working Paper</h3>
+              <p class="authors">Your Name and Coauthor Three</p>
+              <p>
+                This project studies how a policy change affects outcomes over time. You can include displayed equations:
+              </p>
+              <div class="equation">
+                $$\tau = \mathbb{E}[Y_i(1) - Y_i(0)]$$
+              </div>
+              <div class="paper-links">
+                <a href="#">Draft</a>
+                <a href="#">Slides</a>
+                <a href="#">Replication</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="research-item" data-category="work-in-progress">
+            <div class="research-year">2024</div>
+            <div class="research-body">
+              <p class="status">Work in Progress</p>
+              <h3>Title of an Early Stage Project</h3>
+              <p class="authors">Your Name</p>
+              <p>
+                A short description of the research question, data source, and expected contribution. This section is
+                useful for projects that are not yet ready for a paper draft.
+              </p>
+            </div>
+          </article>
+        </div>
+        
+      </section>
+      -->
+      <!-- HIDDEN FOR NOW: Research Agenda section.
+           To show this later:
+           1. Remove this opening comment marker and the closing marker after the section.
+           2. Also uncomment the Agenda link in the navigation near the top of this file.
+      <section class="section two-column" id="agenda">
+        <div class="section-heading">
+          <p class="eyebrow">Research Agenda</p>
+          <h2>Questions I Am Working On</h2>
+        </div>
+        <div class="agenda-grid">
+          <div>
+            <h3>Institutions and Inequality</h3>
+            <p>How do labor market institutions affect income, mobility, and the distribution of risk?</p>
+          </div>
+          <div>
+            <h3>Policy Evaluation</h3>
+            <p>How can credible research designs help governments evaluate policy impacts?</p>
+          </div>
+          <div>
+            <h3>Data and Measurement</h3>
+            <p>What do administrative and text data reveal about behavior that surveys miss?</p>
+          </div>
+        </div>
+      </section>
+      -->
+
+      <section class="section" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+        </div>
+        <div class="contact-grid">
+          <!-- EDIT: Office or department address. -->
+          <p>
+            Department of Economics<br>
+            Central European University <br>
+            Vienna, Austria
+          </p>
+          <p>
+            <!-- EDIT: Contact links. Replace with your real email and profiles. -->
+             ✉️  Farago_Balazs[at]phd.ceu.edu <br>
+            <!--
+            <a href="https://scholar.google.com/">Google Scholar</a><br>
+            <a href="https://github.com/BalazsFarago">GitHub</a>
+            -->
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <!-- EDIT: Footer name. -->
+       <!--
+      <p>© <span id="year"></span> Your Name. Built for GitHub Pages.</p>
+      -->
+    </footer>
+  </body>
+</html>
